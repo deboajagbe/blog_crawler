@@ -1,0 +1,12 @@
+{
+    "period": 3,
+    "site": [
+        "https://www.boundless.com/blog/category/immigration-news/",
+        "https://www.uscis.gov/newsroom/all-news",
+        "https://www.uscis.gov/news/alerts"
+    ],
+    "feeder": [
+        "https://www.uscis.gov/news/rss-feed/22984"
+    ],
+    "limit": 20
+}
