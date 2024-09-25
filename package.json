@@ -1,0 +1,28 @@
+{
+    "name": "feeder",
+    "version": "1.0.0",
+    "description": "Feed the navigate summit blog from uscis",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",  
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [
+        "navigate",
+        "summit",
+        "blog",
+        "feed"
+    ],
+    "dependencies": {
+        "node-schedule": "^2.1.1",
+        "nodemon": "^2.0.7",
+        "rss-url-parser": "^3.0.0"
+    },
+    "devDependencies": {
+        "mocha": "^8.3.2",
+        "chai": "^4.3.4"
+    },
+    "author": "",
+    "license": "ISC"
+}
